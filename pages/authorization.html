@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Authorization</title>
+  <link rel="stylesheet" href="../css/authorization.css">
+  <link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+  <header>
+    <div class="head-block main-head-block" >
+        <div class="head-block-inner">
+            <div class="logo-img">
+                <a href="../index.html"><img src="../img/images/logo.png" alt="Logo" width="60px" height="60px"></a>
+            </div>
+            <div class="topnav-container">
+                <nav>
+                    <div class="topnav" id="myTopnav">
+                        <a href="../index.html"  target = "_self">Home</a>
+                        <a href="../index.html#about" class="menu_about"  target = "_self">About</a>
+                        <a href="../pages/gallery.html"  target = "_self">Gallery</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Services 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="../pages/apartments.html">Apartments</a>
+                            <a href="../pages/events.html">Events</a>
+                            </div>
+                        </div> 
+                        <a href="../pages/contacts.html"  target = "_self">Contacts</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="adaptiveMenu()">&#9776;</a> 
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="top-info">
+            <div class="phone-block">
+                <img src="../img/call-us-logo.png" alt="Logo" width="60px" height="60px">
+                <p class="phone-number"><span class="text-call"> Call us </span><br><a href="tel:+380334445566"> +(380)33-444-55-66</a></p>
+            </div>
+            <div class="reserv-block" id="menuLogin">
+                
+            </div>
+        </div>  
+    </div>
+</header>
+<section>
+  <div class="form-block-upper">
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form" id="register-form">
+          <input type="text" placeholder="name*" id="registerLogin"  required/>
+          <input type="password" placeholder="password*" id="registerPS"  required />
+          <input type="email" placeholder="email address*" id="registerMail"  required />
+          <button id="createBtn" >create</button>
+          <p class="message">Already registered? <a href="#" onclick="showLoginForm()">Sign In</a></p>
+        </form>
+        <form class="login-form" id="login-form">
+          <input type="text" placeholder="username*" id="Login" required/>
+          <input type="password" placeholder="password*" id="PS" required/>
+          <button type="button" id="loginBtn">login</button>
+          <p class="message">Not registered? <a href="#" class="sign_in"  onclick="showRegisterForm()">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="darkblue-content-block">
+  <div class="flex-container darkblue-content-block-inner ">
+      <div class="block-1">
+          <h2>Free Buffet</h2>
+      </div>
+      <div class="block-2">
+          <div class="image-1">
+              <img src="../img/buffet/buffet-1.jpg" alt="Buffet 1" width="100%" height="300px">
+          </div>
+          <div class="flex-container image-2-3">
+              <div class="imgBox">
+                  <img src="../img/buffet/buffet-2.jpg" alt="Buffet 2">
+              </div>
+             <div class="imgBox imgBox-second">
+                  <img src="../img/buffet/buffet-3.jpg" alt="Buffet 3">
+             </div>
+          </div>
+      </div>
+  </div>
+</section>
+<footer>
+  <div class="flex-container">
+      <div class="footer-logo">
+          <img src="../img/images/logo.png" alt="Logo" width="100px" height="100px">
+      </div>
+      <p class="copyright">
+          &copy;&nbsp;Anna Chyrva 2020
+      </p>
+      <div class="flex-container footer-links">
+          <div> <a href="#"><i class="fa fa-instagram"></i></a></div>
+          <div> <a href="#"><i class="fa fa-facebook"></i></a></div>
+          <div> <a href="#"><i class="fa fa-linkedin"></i></a></div> 
+      </div>
+  </div> 
+</footer>
+	
+
+
+
+  <script src="../js/authorization.js" defer></script>
+</body>
+</html>

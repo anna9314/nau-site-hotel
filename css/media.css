@@ -1,0 +1,201 @@
+@media screen and (max-width: 1100px){
+  .data-block{
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1080px){
+  .contacts .data{
+    margin-top:30px;
+  }
+}
+
+@media screen and (min-width: 899px) and (max-width: 901px){
+  .darkblue-content-block{
+      height: 650px;
+  }
+  .darkblue-content-block-inner{
+      padding-top:70px;
+  }
+  
+}
+@media screen and (max-width: 899px){
+  .darkblue-content-block{
+      height: 980px;
+  }
+  .darkblue-content-block-inner{
+      padding-top:0;
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .head-block, .head-block-inner{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .top-info{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .arrow{
+        top: 35vh;
+    }
+    .slide{
+        height: 90vh;
+    }
+    footer .footer-logo, footer .copyright{
+        padding:0;
+    }
+    .dropdown:hover .dropdown-content {
+      padding-left:30px;}
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 603px){
+    footer .footer-logo, footer .copyright, footer .footer-links{
+        width:100%;
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 600px){
+   .apartments .fliter-block .search-block{
+     height:140px;
+    text-align: center;
+   }
+   .apartments .fliter-block .search-block .search-categorie{
+     margin:0 auto;
+   }
+   .sort-block{
+    margin:0 auto;
+    }
+    .breadcrumbs ul li a {
+      font-size: 18px;
+    }
+   h1{
+     margin-top: 100px;
+   }
+    
+  }
+  @media screen and (max-width: 580px){
+    .data-block .info-block{
+      height: 700px;
+    }
+    .modal .modal_content {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .contacts .map, .contacts .data{
+      width:100%;
+      height: 330px;
+    }
+    .contacts .map iframe{
+      width:100%;
+      height: 330px;
+    }
+    .contacts .data{
+      margin-top:20px;
+      height: 550px;
+    }
+  }
+  @media screen and (max-height: 500px){
+    .form-block-upper{
+      height: 120vh;
+    }
+  }
+  @media screen and (max-width: 460px){
+    .data-block .info-block{
+      height: 800px;
+    }
+  }
+  @media screen and (max-width: 425px){
+      .darkblue-content-block{
+          height: 1400px;
+      }
+      .block-2 .image-2-3 .imgBox{
+          width:100%;
+      }
+      .block-2 .image-2-3 .imgBox img{
+          height: 280px;
+      }
+      .block-2 .image-2-3 .imgBox-second{
+          margin-top:10px;
+      }
+      .contacts .data{
+        height: 580px;
+      }
+      .contacts .data p{
+        display: block;
+        padding-left: 60px;
+        position: relative;
+        top:-10px;
+    }
+    .contacts .data .phone-numbers{
+      position: relative;
+      top:-30px;
+    }
+  }
+  @media screen and (min-height: 390px) and (max-width: 768px){
+    .room-description .upper-block{
+      margin-top:25vh;
+    }
+  }
+  @media screen and (max-width: 388px){
+    .data-block .info-block{
+      height: 900px;
+    }
+    .data-block .book-block{
+      height:320px;
+    }
+  }
+  @media screen and (max-width: 370px){
+    .darkblue-content-block-inner .block-2{
+        margin-top:20px;
+    }
+    footer{
+      height:250px;
+      margin-top:50px;
+    }
+  }
+  @media screen and (max-width: 352px){
+    .block-2 .image-1{
+      margin-top:50px;
+    }
+    .room-description .upper-block{
+        border-bottom: none;
+        justify-content: space-around;
+      }
+      .data-block{
+        margin-top:100px;
+      }
+  }
+  @media screen and (max-width: 319px){
+    .contacts .data{
+      height: 660px;
+    }
+  }
+ 
